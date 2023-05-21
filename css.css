@@ -10,7 +10,7 @@ body{
 
 
 .top-section {
-  background-color: #F9A825; /* Color naranja */  
+  background-color: #f37748; /* Color naranja */  
   z-index:-2;
   display: flex;
   flex-direction: column;
@@ -52,7 +52,7 @@ body{
   }
 
   .container {
-      background-color:#F9A825 ;
+      background-color:#f37748 ;
       height: auto;
       position: relative;      
       z-index: 2;
