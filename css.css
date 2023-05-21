@@ -1,0 +1,80 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.menu{
+    background-color: white;
+    height: 100px;
+}
+.top-section,
+.bottom-section {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+}
+
+.top-section {
+  background-color: #F9A825; /* Color naranja */
+  border-bottom-left-radius: -50%; /* Ajusta el radio según tus necesidades */
+  border-bottom-right-radius: 0%; /* Ajusta el radio según tus necesidades */
+  z-index:-2;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  
+}
+
+.bottom-section {
+  background-color: #F5F5F5; /* Color gris claro */
+  border-top-left-radius: 70%; /* Ajusta el radio según tus necesidades */
+  border-top-right-radius: 10%; /* Ajusta el radio según tus necesidades */
+  z-index:1; 
+  
+ 
+}
+
+.infoAbajo{
+    margin-top: 100px;
+    display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.top-section {
+    top: 0;
+  }
+  
+  .bottom-section {
+    bottom: 0;
+  }
+
+  .container {
+      background-color:#F9A825 ;
+      height: 100vh; /* Ajusta la altura según tus necesidades */
+      position: relative;
+      overflow: hidden;
+      z-index: 2;
+  }
+
+  .tarta {
+    position: absolute;
+    top: 0px; /* Ajusta la posición superior según tus necesidades */
+    right: 0px; /* Ajusta la posición izquierda según tus necesidades */
+    z-index:-1;
+    height: 600px;
+
+  }
+
+  .ravioles{
+    position: absolute;
+    top: 450px; /* Ajusta la posición superior según tus necesidades */
+    left: 0px; /* Ajusta la posición izquierda según tus necesidades */
+    z-index:1;
+    height: 600px;
+  }
+
+  footer{
+    background-color: grey;
+    height: 300px;
+  }
