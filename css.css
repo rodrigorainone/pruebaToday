@@ -3,10 +3,12 @@ body{
     padding:0px;
 }
 
-.menu{
-    background-color: white;
-    height: 100px;
+p{
+  margin: 0;
+  padding: 0;
 }
+
+
 
 
 .top-section {
@@ -37,10 +39,13 @@ body{
 }
 
 .infoAbajo{
-    margin-top: 100px;
+    margin-top: 100px;    
+    padding-top: 100px;
     display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+    color:#f37748;
+    font-size: 40px;
 }
 
 .top-section {
@@ -65,7 +70,8 @@ body{
     top: 0px; /* Ajusta la posición superior según tus necesidades */
     right: 0px; /* Ajusta la posición izquierda según tus necesidades */
     z-index:-1;
-    height: 600px;
+    height: 750px;
+    width: 650px;
     animation: myAnim2 1s ease 0s 1 normal forwards;     
 
   }
@@ -75,15 +81,20 @@ body{
     top: 20px; /* Ajusta la posición superior según tus necesidades */
     left: 0px; /* Ajusta la posición izquierda según tus necesidades */
     z-index:1;
-    height: 600px;
+    height: 800px;
     animation: myAnim 1s ease 0s 1 normal forwards;
   }
 
   footer{
-    background-color: grey;
-    height: 100px;    
+    background-color: #f24e1e;
+    height: 200px;    
     width: 100%;
     z-index: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 25px;
   }
 
   @keyframes myAnim {
@@ -108,4 +119,166 @@ body{
       opacity: 1;      
       transform: translateX(0);
     }
+  }
+
+  .tituloTop{
+    font-weight: bold;
+    font-size: 90px;    
+    color: white;
+
+  }
+
+  .spanTop{
+    background-color: #84bcda;
+    font-weight: lighter;
+  }
+
+  .botonTop{
+    margin-top: 10px;
+    background-color: #84bcda;
+    border-radius: 10px;
+    width: 250px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    height: 50px;
+    font-weight: bold;
+
+  }
+
+  .spanFacil{
+    font-weight: bold;
+  }
+
+  .infoTopAbajo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 25px;
+
+  }
+
+  .infoTopContainer{
+    padding-left:40px ;
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+
+  .menu{
+    background-color: white;
+    height: 150px;
+    color: #f37748;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+  }
+
+  .menu img{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    height: 87px;
+    width: 150px;
+  }
+
+  .menu ul {
+    list-style: none;
+    display: flex;
+    gap:60px;
+    font-size: 30px;
+    margin-right: 130px;
+  }
+
+  footer img{
+    width: 247px;
+    height: 110px;
+  }
+
+  .fa-whatsapp{
+    color:#f24e1e;
+    background-color: white;
+    border-radius: 100px;
+    border: 10px solid white;
+  }
+
+  .comunicate{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .comunicateSub{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+  }
+
+  .menuAbajo{
+
+    color:black;
+    display: flex;
+    align-items: center;
+    text-align: center;   
+    margin-bottom: 50px; 
+    margin-top: 20px;
+    
+  }
+
+  .menuAbajo ul{
+    
+    display: flex;    
+    gap: 60px;    
+    font-size: 25px;
+    list-style: none;
+    
+  }
+ 
+
+  .info2{
+    margin-left: 450px;
+    margin-bottom: 50px;
+  }
+
+  .info3{
+    margin-left: 500px;
+    margin-bottom: 50px;
+  }
+
+  .iconTitu{
+    display:flex;
+    align-items: center;
+    gap:50px;
+  }
+
+  .iconTitu i{   
+    
+    color: white;
+    background-color: #f24e1e;
+    border-radius: 100%;
+    border: 15px solid #f24e1e;
+  }
+
+  .seguinosAbajo{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: black;
+  }
+
+  .seguinosAbajo i{
+    color:white;
+    background-color: #f24e1e;
+    border-radius: 100%;
+    border: 10px solid #f24e1e;
+  }
+
+  .iconRedesAbajo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .bolita{
+    color:#f24e1e ;   
   }
